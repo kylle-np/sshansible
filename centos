@@ -295,9 +295,9 @@ route add 200.0.0.0 mask 255.255.255.0 10._.1.4
 
 REMOVE SSH 
 
-ssh-keygen -f "/root/.ssh/known_hosts" -R "10._.1.4"
-ssh-keygen -f "/root/.ssh/known_hosts" -R "10._.100.8"
-ssh-keygen -f "/root/.ssh/known_hosts" -R "10._._.1"
+ssh-keygen -f "/root/.ssh/known_hosts" -R "10.11.1.4"
+ssh-keygen -f "/root/.ssh/known_hosts" -R "10.11.100.8"
+ssh-keygen -f "/root/.ssh/known_hosts" -R "10.11.11.1"
 
 
 
